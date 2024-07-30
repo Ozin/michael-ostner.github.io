@@ -57,6 +57,7 @@ footer {
     var(--background-color) 90%,
     transparent
   );
+  backdrop-filter: blur(0.1em);
 }
 
 footer {
@@ -69,7 +70,6 @@ footer {
 header {
   font-family: timeburner;
   text-transform: uppercase;
-  backdrop-filter: blur(0.1em);
   box-shadow: 0 -0.3em 1em var(--shadow-color);
   position: sticky;
   top: 0;
