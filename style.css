@@ -24,11 +24,13 @@
 @font-face {
   font-family: "TimeBurner";
   src: url("fonts/Timeburner-xJB8.ttf");
+  font-display: fallback;
 }
 
 @font-face {
   font-family: "Mona Sans";
   src: url("fonts/Mona-Sans.woff2");
+  font-display: fallback;
 }
 
 /* General block styles */
